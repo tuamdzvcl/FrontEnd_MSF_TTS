@@ -1,0 +1,40 @@
+.banner-background{
+    background-color: #6cc04a;
+   
+    height: 90vh;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 35px;
+}
+.banner-background .banner-top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.banner-background .banner-top span{
+    border: solid white 1px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+.banner-background .banner-top p{
+    
+    font-size: 22px;
+    font-weight: 600;    
+}
+.banner-bottom{
+max-width: 260px;
+
+}
+.banner-bottom p {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4;
+}

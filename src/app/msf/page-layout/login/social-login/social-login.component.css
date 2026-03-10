@@ -1,0 +1,18 @@
+.login-authO2
+{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+}
+.btn-navtion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+.btn-navtion img{
+    width: 20px;
+    height: 20px;
+}

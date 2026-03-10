@@ -1,0 +1,58 @@
+.signup-form{
+    box-sizing: content-box;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+}
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.form-group label {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+.form-group input {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #6cc24a;
+}
+
+.password-group {
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+    cursor: pointer;
+}
+
+.signup-btn {
+    width: 100%;
+    padding: 14px;
+    background: #6cc24a;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background: #5ab63a;
+}
